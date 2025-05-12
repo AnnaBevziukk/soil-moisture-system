@@ -1,5 +1,36 @@
 <<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 🌱 Soil Moisture Monitoring System
+This project is an information system for monitoring soil moisture using IoT devices, server-side logic in Next.js, and integration with weather services. The system automatically records soil moisture, analyzes plant health, and provides irrigation recommendations.
+
+## 📌 Key Features
+Collection of soil moisture data from hardware sensors
+
+Automatic saving of readings to a MongoDB database
+
+REST API for interaction with the frontend
+
+Daily data aggregation (min / max / avg)
+
+Integration with the OpenWeatherMap API to consider air humidity and temperature
+
+Visualization of measurement history and plant status
+
+Irrigation recommendation system
+
+## ⚙️ Technology Stack
+Next.js — frontend + backend on API Routes
+
+MongoDB — database
+
+Mongoose — data modeling
+
+Node.js + cron — automatic tasks
+
+WeatherAPI — weather forecasting
+
+React Hooks — managing state and UI logic
+
 
 ## Getting Started
 
